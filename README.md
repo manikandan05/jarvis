@@ -164,9 +164,11 @@ Example Commands:
 ## Interaction images:
 
 ![Schedule image](./images/schedule.gif)
+
 Figure 1: Appointment window open
 
 ![Grid editing](./images/grid.gif)
+
 Figure 2: Grid row editing
 
 
