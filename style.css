@@ -1,0 +1,89 @@
+<style>
+  body.jarvis {    
+    background-image: url('IRonnn.jpg');
+	-webkit-tap-highlight-color: transparent;
+	-moz-tap-highlight-color: transparent;
+	margin: 0;
+  }
+  
+  .jarvis .e-loader{ 
+    margin: 0 auto;
+    width: 500px;
+    padding-top: 30vh;
+	display: block;
+	
+  }
+  
+  .jarvis .loading, .jarvis.j-overlay {
+	height: 100%;
+	width: 100%;
+	z-index: 1000000;
+	display: block;
+  }
+
+  .jarvis .speech {
+    padding: 0;
+    margin: 30px 0;
+  }
+  
+  .jarvis .heading {
+	margin: 0 auto;
+	width: 74%;
+  }
+
+  .jarvis h1 {
+    margin: 20px 0 !important;
+	color:rgba(64, 224, 208, 0.925);
+  }
+
+  .jarvis .speech input {
+    border: 0;
+    width: 240px;
+    display: inline-block;
+    height: 30px;
+  }
+  
+  .jarvis .j-hide {
+	display: none;
+  }
+
+  .jarvis .e-grid td.e-active {
+    background-color: rgba(64, 224, 208, 0.356);
+  }
+
+  .jarvis .Blink {
+    animation: blinker 1.5s cubic-bezier(.5, 0, 1, 1) infinite alternate;
+  }
+
+  @keyframes blinker {
+    from {
+      opacity: 1;
+    }
+
+    to {
+      opacity: 0;
+    }
+  }
+  
+  .jarvis.j-overlay, .jarvis .j-overlay{
+	background-color:#060606;
+  }
+	
+	.jarvis.j-scroll{
+	overflow: hidden;
+	}
+	
+	.jarvis #img {
+		font-size:60px;
+		color:rgba(64, 224, 208, 0.925);
+		float: none;
+		padding-left: 220px;
+		padding-top: 90px;
+		width: auto;
+		cursor: pointer;
+	}
+	
+	.jarvis #img * {
+	cursor: pointer;
+	}
+</style>

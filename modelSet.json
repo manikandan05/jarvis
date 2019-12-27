@@ -1,0 +1,92 @@
+[
+    {
+        "control": "schedule",
+        "actions": [
+            "navigate",
+            "go",
+            "move",
+            "switch",
+            "add",
+            "create",
+            "new",
+            "open",
+            "show",
+            "list",
+            "click",
+            "select",
+            "refersh",
+            "rerender",
+            "refershing"
+        ],
+        "reducers": {
+            "navigate_go_switch_move": {
+                "action": "navigate",
+                "view": [
+                    "week",
+                    "workWeek",
+                    "month",
+                    "agenda",
+                    "day"
+                ],
+                "date": [
+                    "previous",
+                    "next",
+                    "today"
+                ]
+            },
+            "open_click_select": {
+                "action": "windowOpen"
+            },
+            "refresh_refreshing_rerender": {
+                "action": "refresh"
+            },
+            "create_add_new": {
+                "action": "addEvent"
+            },
+            "show_list": {
+                "action": "showEvent"
+            }
+        }
+    },
+    {
+        "control": "grid",
+        "actions": [
+            "go to",
+            "sort",
+            "group",
+            "filter",
+            "short",
+            "edit",
+            "select",
+            "navigate",
+            "search",
+            "ungroup"
+        ],
+        "reducers": {
+            "navigate_go_to": {
+                "action": "paging"
+            },
+            "sort": {
+                "action": "sorting"
+            },
+            "short": {
+                "action": "sorting"
+            },
+            "select_click": {
+                "action": "selection"
+            },
+            "group": {
+                "action": "grouping"
+            },
+            "ungroup": {
+                "action": "ungrouping"
+            },
+            "edit": {
+                "action": "edit"
+            },
+            "search": {
+                "action": "searching"
+            }
+        }
+    }
+]
