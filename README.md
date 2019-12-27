@@ -178,3 +178,10 @@ In this project we have deployed this voice assistant to interact with our Grid 
 
 ## Feature enhancement:
  In future we can extend this AI voice support for all our components and it's possible to completely enable all the functionalities of our components through voice control.
+
+ # How to run this project
+
+ 1. Clone this project repository.
+ 2. Run the `npm install` command.
+ 3. Once the package installation will be completed successfully, then run the `gulp serve` command.
+ 4. Now, the project will be hosted in a localhost link. Open the hosted link a browser window.
